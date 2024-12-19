@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/public/favicon.webp" />
+        <link rel="icon" type="image/svg+xml" href="favicon.webp" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link
@@ -34,7 +34,7 @@
                 <div class="sticky top-24">
                     <!--main content-> image section-> exterior image-->
                     <div class="h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
-                        <img src="./src/assets/model-y-stealth-grey.jpg" alt="tesla model y" class="max-w-full h-auto transform scale-125" id="exterior-image" />
+                        <img src="./src/assets/model-y-stealth-grey.jpg" alt="tesla model y stealth gray" class="max-w-full h-auto transform scale-125" id="exterior-image" />
                     </div>
                 </div>
                     <!--main content-> image section-> interior image-->
@@ -93,8 +93,72 @@
                 <!--main content-> side bar-> self drive option -->
                 <div class="border p-4 mb-8 ronded-lg shadow">
                     <h3 class="font-semibold mb-2">Full Self-Driving</h3>
-                    <label for="self-drive-option"></label>
-                    <input type="checkbox" id="self-drive-option" name="self-drive-option" class="form-checkbox">
+                    <label for="self-drive-option">
+                    <input type="checkbox" id="self-drive-option" name="self-drive-option" class="form-checkbox h-5 w-5 text-blue-600">
+                    <span> Add Full Self Driving For $8,500</span>
+                    </label>
+                </div>
+                <!--main content-> side bar-> performance upgrade -->
+                <div class="mb-8">
+                    <h3 class="font-semiblod mb-8">Performance package</h3>
+                    <button class="w-full bg-gray-200 hover:bg-gray-400 rounded-lg py-4">Performance Upgrade (+$5,000)</button>
+                </div>
+                <!--main content-> side bar-> accessories -->
+                <div class="my-8">
+          <h3 class="font-semibold mb-2">Accessories</h3>
+          <div class="space-y-4">
+            <label
+              class="flex items-center justify-between py-4 px-4 border rounded-lg shadow"
+            >
+              <span>Center Console Trays</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$35</span>
+              </span>
+            </label>
+            <label
+              class="flex items-center justify-between py-4 px-4 border rounded-lg shadow"
+            >
+              <span>Sunshade</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$105</span>
+              </span>
+            </label>
+            <label
+              class="flex items-center justify-between py-4 px-4 border rounded-lg shadow"
+            >
+              <span>All-Weather Interior Liners</span>
+              <span class="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  class="accessory-form-checkbox h-5 w-5"
+                />
+                <span>$225</span>
+              </span>
+            </label>
+          </div>
+        </div>
+                <!--main content-> side bar-> total price -->
+                <div class="pt-4">
+                    <h3 class="font-semibold text-lg">Total Price</h3>
+                    <p id="total-price" class="text-2xl font-bold">%52,490</p>
+                </div>
+                <!--main content-> side bar-> payment breakdown -->
+                <div class="border-t pt-4 mt-6">
+                    <h3 class="font-semibold text-lg">Estimated Payment Breakdown</h3>
+                    <div class="mt-4">
+                        <p>Down Payment: <span id="down-payment" class="font-bold">$5000</span></p>
+                        <p>Loan Term: <span class="font-bold">60 months</span></p>
+                        <p>Interest Rate: <span class="font-bold">3% APR</span></p>
+                        <p>Estimated Monthly Payment: <span id="monthly-payment" class="font-bold text-2xl">$818.65</span></p>
+                    </div>
                 </div>
             </aside>
         </main>
