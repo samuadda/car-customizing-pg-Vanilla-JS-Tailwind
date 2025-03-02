@@ -9,7 +9,7 @@ This is a simple car customization web page built using **HTML, Tailwind CSS, an
 - Clean and modern UI
 
 ## Live Demo
-You can check out the live version of the project here: [GitHub Pages Link]([#](https://samuadda.github.io/tesla-customization-page/)) *(Replace with actual link if hosted)*
+You can check out the live version of the project here: [GitHub Pages Link](https://samuadda.github.io/tesla-customization-page/)
 
 ## Installation & Usage
 
