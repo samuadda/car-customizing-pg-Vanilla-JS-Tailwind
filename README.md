@@ -15,11 +15,11 @@ You can check out the live version of the project here: [GitHub Pages Link](#) *
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/samuadda/tesla-customization-page.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd repository-name
+   cd tesla-customization-page
    ```
 3. Open the `index.html` file in a browser:
    ```sh
@@ -37,7 +37,7 @@ You can check out the live version of the project here: [GitHub Pages Link](#) *
 Feel free to contribute by submitting a pull request or opening an issue.
 
 ## License
-This project is licensed under the MIT License.
+This open-source project is available under the [MIT License](https://opensource.org/license/mit).
 
 ---
 
